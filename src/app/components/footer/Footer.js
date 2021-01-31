@@ -25,7 +25,7 @@ export const Footer = () => {
       <section class="social-media">
         <div class="social-media-wrap">
           <div class="footer-logo">
-            <Link to="/" className="social-logo">
+            <Link to="/my-app/" className="social-logo">
               Holiday
               <i class="fas fa-umbrella-beach" />
             </Link>
@@ -42,7 +42,7 @@ export const Footer = () => {
             </Link>
             <Link
               class="social-icon-link instagram"
-              to="/"
+              to="/my-app/"
               target="_blank"
               aria-label="Instagram"
             >
@@ -50,7 +50,7 @@ export const Footer = () => {
             </Link>
             <Link
               class="social-icon-link youtube"
-              to="/"
+              to="/my-app/"
               target="_blank"
               aria-label="Youtube"
             >
@@ -62,4 +62,3 @@ export const Footer = () => {
     </div>
   );
 };
-

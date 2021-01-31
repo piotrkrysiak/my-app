@@ -43,7 +43,7 @@ export const Navbar = () => {
     <>
       <nav className={navbar ? "navbar active" : "navbar"}>
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo" onClick={handleCloseMobile}>
+          <Link to="/my-app/" className="navbar-logo" onClick={handleCloseMobile}>
             Holiday
             <i className="fas fa-umbrella-beach" />
           </Link>
@@ -58,7 +58,7 @@ export const Navbar = () => {
             </li>
             <li className="nav-item">
               <Link
-                to="/services"
+                to="/my-app/services"
                 className="nav-links"
                 onClick={handleCloseMobile}
               >
@@ -67,7 +67,7 @@ export const Navbar = () => {
             </li>
             <li>
               <Link
-                to="/sign-up"
+                to="/my-app/sign-up"
                 className="nav-links-mobile"
                 onClick={handleCloseMobile}
               >
@@ -75,7 +75,7 @@ export const Navbar = () => {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonSize="btn--outline">SING UP</Button>}
+          {button && <Button buttonSize="btn--outline">SIGN UP</Button>}
         </div>
       </nav>
     </>

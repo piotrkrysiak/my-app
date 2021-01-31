@@ -1,12 +1,13 @@
 import React from "react";
 import "./Hero.css";
 import { Button } from "../button/Button";
+import video from "./../../assets/videos/video-3.mp4"
 
 export const Hero = () => {
   return (
     <div className="hero-container">
-      <video src="/videos/video-3.mp4" autoPlay loop muted />
-      <h1>BEUTIFUL PLACES</h1>
+      <video src={video} autoPlay loop muted />
+      <h1>BEAUTIFUL PLACES</h1>
       <p>Website about the world!</p>
       <div className="hero-btns">
         <Button
@@ -21,8 +22,7 @@ export const Hero = () => {
           buttonStyle="btn--primary"
           buttonSize="btn--large"
         >
-          <a href='//google.pl'></a>
-          WATCH TRILER <i className="far fa-play-circle" />
+          WATCH TRAILER <i className="far fa-play-circle" />
         </Button>
       </div>
     </div>
