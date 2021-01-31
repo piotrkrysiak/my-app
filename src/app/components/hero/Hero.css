@@ -8,14 +8,13 @@ video {
 }
 
 .hero-container {
-  /* background: url("public/images/img-home.jpg") center center/cover no-repeat; */
   height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-shadow: inset 0 0 0 1000px rgba(0, 69, 71, 0.096);
+  box-shadow: inset 0 0 0 1000px rgba(1, 39, 41, 0.096);
   object-fit: contain;
 }
 

@@ -12,7 +12,9 @@ export const Navbar = () => {
   const handleClick = () => {
     setClick(!click);
     if (window.scrollY < 20) {
-      setNavbar(!navbar);
+      if (click === false) {
+        setNavbar(true);
+      } else setNavbar(false);
     }
   };
   const handleCloseMobile = () => setClick(false);
@@ -43,7 +45,11 @@ export const Navbar = () => {
     <>
       <nav className={navbar ? "navbar active" : "navbar"}>
         <div className="navbar-container">
-          <Link to="/my-app/" className="navbar-logo" onClick={handleCloseMobile}>
+          <Link
+            to="/my-app/"
+            className="navbar-logo"
+            onClick={handleCloseMobile}
+          >
             Holiday
             <i className="fas fa-umbrella-beach" />
           </Link>
@@ -52,7 +58,11 @@ export const Navbar = () => {
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={handleCloseMobile}>
+              <Link
+                to="/my-app/"
+                className="nav-links"
+                onClick={handleCloseMobile}
+              >
                 Home
               </Link>
             </li>

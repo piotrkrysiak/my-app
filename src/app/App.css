@@ -22,7 +22,9 @@
 
 .services {
   top:0;
-  background-image: url("./../app/assets/images/img-2.jpg"); 
+  background-image: url("./../app/assets/images/img8.jpg"); 
+  box-shadow: inset 0 0 0 1000px rgba(1, 39, 41, 0.096);
+
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -31,7 +33,9 @@
 }
 
 .sign-up {
-  background-image: url("./../app/assets/images/img-2.jpg"); 
+  background-image: url("./../app/assets/images/img2.jpg"); 
+  box-shadow: inset 0 0 0 1000px rgba(1, 39, 41, 0.096);
+
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

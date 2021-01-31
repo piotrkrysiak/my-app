@@ -34,7 +34,7 @@ export const Footer = () => {
           <div class="social-icons">
             <Link
               class="social-icon-link facebook"
-              to="/"
+              to="/my-app/"
               target="_blank"
               aria-label="Facebook"
             >
